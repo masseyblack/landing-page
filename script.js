@@ -1,4 +1,4 @@
-const launchDate = new Date("January2, 2026 16:22:50").getTime();
+const launchDate = new Date("February 1, 2026 00:00:00").getTime();
 const boxes = document.querySelectorAll(".time-box");
 
 setInterval(() => {
@@ -24,4 +24,5 @@ setInterval(() => {
     box.classList.add("scale-110");
     setTimeout(() => box.classList.remove("scale-110"), 300);
   });
+
 }, 1000);

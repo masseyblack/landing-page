@@ -1,0 +1,131 @@
+:root {
+    --main-color: #706d6d;
+    --accent-color: #006d5b;
+    --background-color: #f7f7f7;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.content{
+    width: 100vw;
+    height: 105vh;
+    margin: 0;
+    padding: 0;
+     background-image: linear-gradient(to bottom, var(--main-color), var(--accent-color));
+}
+
+.logo{
+    border: 0px solid;
+    margin-bottom: -100px;
+    display: flex;
+    h1{
+        border: 0px solid;
+        padding-top: 20px;
+        margin-left: 30px;
+        color: black;
+        font-size: 60px;
+        font-style: italic;
+        font-family:'Times New Roman', Times, serif;
+    }
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 100px;
+    
+    border-radius: 100px;
+    
+}
+
+.hero {
+    
+    color: #fff;
+    padding: 5em;
+    text-align: center;
+    span{
+        color: #006d5b;
+    }
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    p{
+        font-size: 50px;
+        margin-bottom:0px;
+        margin-top: 3px;
+    }
+}
+
+#timer .time-box {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    width: 100px;
+    font-weight: bold;
+    
+}
+
+.services {
+    padding:1em;
+    text-align: center;
+    margin-top: -100px;
+    
+    h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 50px;
+}
+}
+
+.service-list {
+      display: flex;
+      flex-wrap: wrap;
+      width: 800px;
+      gap: 25px;
+      justify-content: center;
+      border: 0px solid;
+      margin-left: 550px;
+} 
+
+.service-card {
+      background: rgba(0, 0, 0, 0.1);
+      padding: 25px;
+      border-top-right-radius:  34px;
+      border-bottom-left-radius:  34px;
+      width: 200px;
+}
+
+ .service-card h4 {
+      font-size: 20px;
+      margin-bottom: 10px;
+}
+
+    .service-card p {
+      font-size: 15px;
+      opacity: 0.85;
+}
+
+footer{
+    background: transparent;
+    text-align: center;
+}
+
+
